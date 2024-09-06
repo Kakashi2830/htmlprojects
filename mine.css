@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetca, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#board {
+    width: 500px;
+    height: 500px;
+    border: 15px solid solid darkolivegreen;
+    background-color: rgb(68, 144, 101);
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board div{
+    width: 49px;
+    height: 49px;
+    border: 2px soild greenyellow;
+
+    /*text*/
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-clicked{
+    background: rgb(26, 184, 26);
+}
+
+.x1 {
+    color: blue;
+}
+
+.x2 {
+    color: green;
+}
+
+.x3 {
+    color: red;
+}
+
+.x4 {
+    color: navy;
+}
+
+.x5 {
+    color: brown;
+}
+
+.x6 {
+    color: teal;
+}
+
+.x7 {
+    color: black;
+}
+
+.x8 {
+    color: gray;
+}
+
+/* .x9{
+    color: pink;
+}
+
+.x10{
+    color: yellow;
+} */
+
+#flag-button {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: rgb(191, 246, 83);
+    border: none;
+}
